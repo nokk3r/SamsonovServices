@@ -1,0 +1,35 @@
+{
+  "name": "imsus",
+  "version": "1.0.0",
+  "description": "Imsas services",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "server": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nokk3r/SamsonovServices.git"
+  },
+  "keywords": [
+    "imsus",
+    "nokk3r",
+    "react",
+    "nodejs"
+  ],
+  "author": "nokk3r <nokk3r-w@mail.ru>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nokk3r/SamsonovServices/issues"
+  },
+  "homepage": "https://github.com/nokk3r/SamsonovServices#readme",
+  "dependencies": {
+    "config": "^3.3.6",
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5"
+  },
+  "devDependencies": {
+    "concurrently": "^6.2.0",
+    "nodemon": "^2.0.12"
+  }
+}
